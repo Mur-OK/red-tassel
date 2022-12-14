@@ -1,3 +1,20 @@
-.header__title{
-  
+.header__title {
+  margin: 0;
+  font-size: 48px;
+  line-height: 59px;
+  color: var(--black)
+}
+
+@media screen and (max-width: 1010px) {
+  .header__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header__title {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }

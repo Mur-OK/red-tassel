@@ -1,1 +1,8 @@
-.price{}
+.price{
+  margin: 21px 0 0 0;
+  min-height: 29px;
+  max-height: 29px;
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}

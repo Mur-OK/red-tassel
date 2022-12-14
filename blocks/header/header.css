@@ -1,3 +1,33 @@
 .header{
-  
+  padding: 30px 40px 0;
+  min-height: 800px;
+  background: url('../../images/header/header-bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .header{
+    min-height: 721px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header{
+    min-height: 533px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header{
+    min-height: 327px;
+    padding: 15px 16px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header{
+    min-height: 327px;
+    padding: 15px 16px 0;
+  }
 }

@@ -1,1 +1,33 @@
-.header__container{}
+.header__container{
+  margin: 222px 0 0 0;
+}
+
+@media screen and (max-width: 1010px) {
+  .header__container{
+    margin: 357px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .header__container{
+    margin: 357px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header__container{
+    margin: 154px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header__container{
+    margin: 50px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header__container{
+    margin: 21px 0 0 0;
+  }
+}

@@ -6,11 +6,40 @@
 /* Header */
 @import '../blocks/header/header.css';
 @import '../blocks/header/__title/header__title.css';
+@import '../blocks/header/__title/_red/header__title_red.css';
+@import '../blocks/header/__subtitle/header__subtitle.css';
 @import '../blocks/header/__link/header__link.css';
 @import '../blocks/header/__link/_active/header__link_active.css';
+@import '../blocks/header/__lists/header__lists.css';
+@import '../blocks/header/__container/header__container.css';
+/* Nav */
+@import '../blocks/nav/nav.css';
 /* Main */
 @import '../blocks/main/main.css';
+/* Logo */
+@import '../blocks/logo/logo.css';
+/* Burger */
+@import '../blocks/burger/burger.css';
+/* Title */
+@import '../blocks/title/title.css';
+/* Paints */
+@import '../blocks/paints/paints.css';
+@import '../blocks/paints/__title/paints__title.css';
+/* Price */
+@import '../blocks/price/price.css';
+@import '../blocks/price/__text/price__text.css';
+@import '../blocks/price/__link/price__link.css';
 /* Link */
 @import '../blocks/link/link.css';
+/* Lists */
+@import '../blocks/lists/lists.css';
+/* List */
+@import '../blocks/list/list.css';
+/* Cards */
+@import '../blocks/cards/cards.css';
+/* Card */
+@import '../blocks/card/card.css';
+@import '../blocks/card/__image/card__image.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
+@import '../blocks/footer/__year/footer__year.css';

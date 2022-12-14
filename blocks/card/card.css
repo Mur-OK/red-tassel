@@ -1,1 +1,12 @@
-.card{}
+.card{
+  padding: 14px 0 0 0;
+  width: 100%;
+  max-width: 176px;
+  min-width: 176px;
+  max-height: 230px;
+  min-height: 230px;
+  display: grid;
+  justify-content: center;
+  background: var(--gray);
+  border-radius: 8px;
+}
