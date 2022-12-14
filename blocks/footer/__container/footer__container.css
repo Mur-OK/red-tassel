@@ -1,0 +1,17 @@
+.footer__container{
+  padding: 0 40px;
+  width: 95vw;
+  max-width: 1140px;
+  min-width: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 420px) {
+  .footer__container{
+    padding: 0;
+    display: grid;
+    justify-content: center;
+  }
+}
